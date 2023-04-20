@@ -1,0 +1,47 @@
+/*
+Theme Name: Portifólio - Diogo Oliveira
+Theme URI: https://website.com/portifolio   
+Author: Diogo
+Author URI:  https://website.com/portifolio  
+Description: Este tema foi criado com a funalidade de testar algumas aplicações absorvidas em estudos e colocado através deste, em prática.
+Tags: blog, one-column, custom-background, custom-colors, custom-logo, custom-menu, editor-style, featured-images, footer-widgets, full-width-template, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready, block-styles, wide-blocks, accessibility-ready
+Version: 1.3
+Requires at least: 5.0
+Tested up to: 5.4
+Requires PHP: 8.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: Portifólio - Diogo de Oliveira Santos
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+/* MENU DE NAVEGAÇÃO TOP E E FOOTER */
+header nav{
+    display: flex;
+    justify-content: space-around;
+}
+nav ul{
+    display: flex;
+    
+}
+nav ul li {
+    margin-right:15px;
+    list-style: none;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+/* home */
+.container-home{
+    text-align: center;
+}
+
+
+
